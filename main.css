@@ -1,0 +1,145 @@
+.cards,
+.cards * {
+  box-sizing: border-box;
+}
+.cards {
+  background: var(--d-900, #102a43);
+  border-radius: 8px;
+  display: flex;
+  flex-direction: column;
+  gap: 0px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  width: 310px;
+  height: 205px;
+  position: relative;
+  overflow: hidden;
+}
+.header-card {
+  padding: 10px 10px 10px 10px;
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  flex-shrink: 0;
+  position: relative;
+  overflow: hidden;
+}
+.star {
+  flex-shrink: 0;
+  position: relative;
+  overflow: visible;
+}
+.titulo-card {
+  display: flex;
+  flex-direction: row;
+  gap: 0px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  align-self: stretch;
+  flex-shrink: 0;
+  position: relative;
+}
+.frame-2 {
+  padding: 8px 8px 8px 8px;
+  display: flex;
+  flex-direction: row;
+  gap: 8px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  flex-shrink: 0;
+  position: relative;
+  overflow: hidden;
+}
+.texto-do-servi-o {
+  color: #ffffff;
+  text-align: left;
+  font: 300 24px "Lato", sans-serif;
+  position: relative;
+  align-self: stretch;
+  width: 242px;
+}
+.frame-3 {
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+  align-items: center;
+  justify-content: center;
+  align-self: stretch;
+  flex: 1;
+  position: relative;
+  transform-origin: 0 0;
+  transform: rotate(0deg) scale(-1, 1);
+  overflow: hidden;
+}
+.icon-r {
+  background: #006277;
+  border-radius: 8px;
+  padding: 8px 8px 8px 8px;
+  display: flex;
+  flex-direction: row;
+  gap: 8px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  flex-shrink: 0;
+  position: relative;
+  transform-origin: 0 0;
+  transform: rotate(0deg) scale(-1, 1);
+}
+.activity {
+  flex-shrink: 0;
+  position: relative;
+  overflow: visible;
+}
+.content-card {
+  padding: 10px 10px 10px 10px;
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  align-self: stretch;
+  flex-shrink: 0;
+  position: relative;
+  overflow: hidden;
+}
+.item {
+  color: #ffffff;
+  text-align: left;
+  font: var(--caption-regular, 400 12px "Lato", sans-serif);
+  position: relative;
+  flex: 1;
+  height: 64px;
+}
+.ver-mais {
+  background: #486581;
+  padding: 8px 12px 8px 12px;
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+  align-items: center;
+  justify-content: center;
+  flex-shrink: 0;
+  width: 310px;
+  position: relative;
+}
+.value {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  flex: 1;
+  position: relative;
+}
+.left {
+  color: #ffffff;
+  text-align: left;
+  font: 300 16px "Lato", sans-serif;
+  position: relative;
+}
+.arrow-right-circle {
+  flex-shrink: 0;
+  position: relative;
+  overflow: visible;
+}
