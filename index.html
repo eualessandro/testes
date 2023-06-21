@@ -2,38 +2,91 @@
 <html>
 <head>
   <title>Exemplo de Estrutura HTML</title>
+  <link rel="stylesheet" type="text/css" href="https://eualessandro.github.io/testes/main.css">
 </head>
 <body>
-  <div class="Cards" style="width: 310px; height: 205px; background: #102A43; border-radius: 8px; overflow: hidden; flex-direction: column; justify-content: flex-start; align-items: flex-start; display: inline-flex">
-    <div class="HeaderCard" style="padding: 10px; justify-content: flex-start; align-items: flex-start; gap: 10px; display: inline-flex">
-      <div class="Star" style="width: 20px; height: 20px; position: relative">
-        <div class="Vector" style="width: 16.67px; height: 15.85px; left: 1.67px; top: 1.67px; position: absolute; background: #FFD174; border: 0.62px #374151 solid"></div>
-      </div>
+  <div class="cards">
+  <div class="header-card">
+    <svg
+      class="star"
+      width="20"
+      height="20"
+      viewBox="0 0 20 20"
+      fill="none"
+      xmlns="http://www.w3.org/2000/svg"
+    >
+      <path
+        d="M10 1.66669L12.575 6.88335L18.3334 7.72502L14.1667 11.7834L15.15 17.5167L10 14.8084L4.85002 17.5167L5.83335 11.7834L1.66669 7.72502L7.42502 6.88335L10 1.66669Z"
+        fill="#FFD174"
+        stroke="#374151"
+        stroke-width="1.25"
+        stroke-linecap="round"
+        stroke-linejoin="round"
+      />
+    </svg>
+  </div>
+
+  <div class="titulo-card">
+    <div class="frame-2">
+      <div class="texto-do-servi-o">Texto do Serviço</div>
     </div>
-    <div class="TituloCard" style="align-self: stretch; justify-content: flex-start; align-items: flex-start; display: inline-flex">
-      <div class="Frame2" style="padding: 8px; justify-content: flex-start; align-items: flex-start; gap: 8px; display: flex">
-        <div class="TextoDoServiO" style="width: 242px; color: white; font-size: 24px; font-family: Lato; font-weight: 300; letter-spacing: 0.50px; word-wrap: break-word">Texto do Serviço</div>
-      </div>
-      <div class="Frame3" style="flex: 1 1 0; align-self: stretch; transform: rotate(180deg); transform-origin: 0 0; justify-content: center; align-items: center; gap: 10px; display: flex">
-        <div class="IconR" style="padding: 8px; transform: rotate(180deg); transform-origin: 0 0; background: #006277; border-radius: 8px; justify-content: flex-start; align-items: flex-start; gap: 8px; display: flex">
-          <div class="Activity" style="width: 16px; height: 16px; position: relative">
-            <div class="Vector" style="width: 13.33px; height: 12px; left: 1.33px; top: 2px; position: absolute; border: 0.38px #99EDFF solid"></div>
-          </div>
-        </div>
-      </div>
-    </div>
-    <div class="ContentCard" style="align-self: stretch; padding: 10px; justify-content: flex-start; align-items: flex-start; gap: 10px; display: inline-flex">
-      <div class="Item" style="flex: 1 1 0; height: 64px; color: white; font-size: 12px; font-family: Lato; font-weight: 400; letter-spacing: 0.50px; word-wrap: break-word">Item</div>
-    </div>
-    <div class="VerMais" style="width: 310px; padding-left: 12px; padding-right: 12px; padding-top: 8px; padding-bottom: 8px; background: #486581; justify-content: center; align-items: center; gap: 10px; display: inline-flex">
-      <div class="Value" style="flex: 1 1 0; height: 20px; justify-content: space-between; align-items: center; gap: 194px; display: flex">
-        <div class="Left" style="color: white; font-size: 16px; font-family: Lato; font-weight: 300; letter-spacing: 0.50px; word-wrap: break-word">Ver mais</div>
-        <div class="ArrowRightCircle" style="width: 20px; height: 20px; position: relative">
-          <div class="Vector" style="width: 3.33px; height: 6.67px; left: 10px; top: 6.67px; position: absolute; border: 0.62px white solid"></div>
-          <div class="Vector" style="width: 6.67px; height: 0px; left: 6.67px; top: 10px; position: absolute; border: 0.62px white solid"></div>
-        </div>
+
+    <div class="frame-3">
+      <div class="icon-r">
+        <svg
+          class="activity"
+          width="16"
+          height="17"
+          viewBox="0 0 16 17"
+          fill="none"
+          xmlns="http://www.w3.org/2000/svg"
+        >
+          <path
+            d="M14.6667 8.5H12L10 14.5L6.00004 2.5L4.00004 8.5H1.33337"
+            stroke="#99EDFF"
+            stroke-width="0.75"
+            stroke-linecap="round"
+            stroke-linejoin="round"
+          />
+        </svg>
       </div>
     </div>
   </div>
+
+  <div class="content-card">
+    <div class="item">Item</div>
+  </div>
+
+  <div class="ver-mais">
+    <div class="value">
+      <div class="left">Ver mais</div>
+
+      <svg
+        class="arrow-right-circle"
+        width="20"
+        height="20"
+        viewBox="0 0 20 20"
+        fill="none"
+        xmlns="http://www.w3.org/2000/svg"
+      >
+        <path
+          d="M10 13.3334L13.3333 10L10 6.66669"
+          stroke="white"
+          stroke-width="1.25"
+          stroke-linecap="round"
+          stroke-linejoin="round"
+        />
+        <path
+          d="M6.66669 10H13.3334"
+          stroke="white"
+          stroke-width="1.25"
+          stroke-linecap="round"
+          stroke-linejoin="round"
+        />
+      </svg>
+    </div>
+  </div>
+</div>
+
 </body>
 </html>
