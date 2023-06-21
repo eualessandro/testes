@@ -143,3 +143,440 @@
   position: relative;
   overflow: visible;
 }
+
+.home-logado,
+.home-logado * {
+  box-sizing: border-box;
+}
+.home-logado {
+  background: #fbfbfb;
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  align-items: center;
+  justify-content: flex-start;
+  position: relative;
+  overflow: hidden;
+}
+.frame-629050 {
+  display: flex;
+  flex-direction: column;
+  gap: 0px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  flex-shrink: 0;
+  position: relative;
+}
+.header {
+  background: linear-gradient(
+    0deg,
+    rgba(16, 42, 67, 1) 0%,
+    rgba(0, 0, 0, 1) 100%
+  );
+  padding: 24px 24px 24px 24px;
+  display: flex;
+  flex-direction: row;
+  gap: 857px;
+  align-items: center;
+  justify-content: flex-start;
+  flex-shrink: 0;
+  width: 1461.82px;
+  position: relative;
+}
+.frame-1 {
+  display: flex;
+  flex-direction: row;
+  gap: 41px;
+  align-items: center;
+  justify-content: flex-start;
+  flex-shrink: 0;
+  width: 412px;
+  position: relative;
+}
+.logo {
+  display: flex;
+  flex-direction: column;
+  gap: 3px;
+  align-items: flex-end;
+  justify-content: flex-start;
+  flex-shrink: 0;
+  position: relative;
+}
+.clipboard-20-de-abril-de-2023-s-16-08-1 {
+  flex-shrink: 0;
+  width: 195px;
+  height: 54.67px;
+  position: relative;
+}
+.clipboard-20-de-abril-de-2023-s-16-08-2 {
+  flex-shrink: 0;
+  width: 146px;
+  height: 29.73px;
+  position: relative;
+}
+.frame-10 {
+  display: flex;
+  flex-direction: row;
+  gap: 8px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  flex-shrink: 0;
+  position: relative;
+}
+.sefaz {
+  color: #ffffff;
+  text-align: left;
+  font: 700 24px "Inter", sans-serif;
+  position: relative;
+}
+.sistema {
+  color: #00c2ff;
+  text-align: left;
+  font: 400 24px "Inter", sans-serif;
+  position: relative;
+}
+.frame-11 {
+  padding: 10px 10px 10px 10px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  flex-shrink: 0;
+  position: relative;
+}
+.user {
+  display: flex;
+  flex-direction: row;
+  gap: 25px;
+  align-items: center;
+  justify-content: flex-start;
+  flex-shrink: 0;
+  position: relative;
+}
+.users-right-variant-4 {
+  flex-shrink: 0;
+  position: relative;
+  overflow: visible;
+}
+.users-right-default {
+  flex-shrink: 0;
+  position: relative;
+  overflow: visible;
+}
+.users-right-default2 {
+  flex-shrink: 0;
+  position: relative;
+  overflow: visible;
+}
+.wrapper {
+  border-radius: 8px;
+  border-style: solid;
+  border-color: #eaecf0;
+  border-width: 1px;
+  display: flex;
+  flex-direction: row;
+  gap: 0px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  flex-shrink: 0;
+  width: 1408px;
+  position: relative;
+  overflow: hidden;
+}
+.frame-629056 {
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  flex-shrink: 0;
+  position: relative;
+}
+.menu {
+  background: var(--neutral-white, #ffffff);
+  border-style: solid;
+  border-color: var(--gray-shades-light-gray-2, #efefef);
+  border-width: 0px 1px 0px 0px;
+  padding: 24px 16px 32px 16px;
+  display: flex;
+  flex-direction: column;
+  gap: 32px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  flex-shrink: 0;
+  height: 1335px;
+  position: relative;
+  overflow: hidden;
+}
+.top {
+  display: flex;
+  flex-direction: column;
+  gap: 44px;
+  align-items: center;
+  justify-content: center;
+  flex-shrink: 0;
+  position: relative;
+}
+.frame-12 {
+  padding: 10px 10px 10px 10px;
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  flex-shrink: 0;
+  position: relative;
+}
+.profile {
+  display: flex;
+  flex-direction: row;
+  gap: 12px;
+  align-items: center;
+  justify-content: flex-start;
+  flex-shrink: 0;
+  position: relative;
+}
+.avatar {
+  background: #f5f5f5;
+  border-radius: 16px;
+  flex-shrink: 0;
+  width: 56px;
+  height: 56px;
+  position: relative;
+}
+.ui {
+  color: var(--gray-shades-background, #09090a);
+  text-align: center;
+  font: 600 24px "Open Sans", sans-serif;
+  position: absolute;
+  left: 0px;
+  top: 11px;
+  width: 56px;
+}
+.frame-2 {
+  padding: 10px 10px 10px 10px;
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  flex-shrink: 0;
+  position: relative;
+}
+.seach {
+  background: #f5f5f5;
+  border-radius: 16px;
+  padding: 16px 16px 16px 16px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  align-items: flex-start;
+  justify-content: center;
+  flex-shrink: 0;
+  width: 56px;
+  position: relative;
+}
+.icons {
+  flex-shrink: 0;
+  position: relative;
+  overflow: visible;
+}
+.list-item {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  flex-shrink: 0;
+  position: relative;
+}
+.list-manu {
+  border-radius: 8px;
+  padding: 16px 16px 16px 16px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  align-items: center;
+  justify-content: center;
+  flex-shrink: 0;
+  width: 56px;
+  position: relative;
+}
+.icons2 {
+  flex-shrink: 0;
+  position: relative;
+  overflow: visible;
+}
+.icons3 {
+  flex-shrink: 0;
+  position: relative;
+  overflow: visible;
+}
+.icons4 {
+  flex-shrink: 0;
+  position: relative;
+  overflow: visible;
+}
+.icons5 {
+  flex-shrink: 0;
+  position: relative;
+  overflow: visible;
+}
+.icons6 {
+  flex-shrink: 0;
+  position: relative;
+  overflow: visible;
+}
+.bottom {
+  display: flex;
+  flex-direction: column;
+  gap: 32px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  flex-shrink: 0;
+  position: relative;
+}
+.icons7 {
+  flex-shrink: 0;
+  position: relative;
+  overflow: visible;
+}
+.switch-toggle {
+  flex-shrink: 0;
+  width: 56px;
+  height: 32px;
+  position: relative;
+}
+.base {
+  background: #000000;
+  border-radius: 16px;
+  width: 56px;
+  height: 32px;
+  position: absolute;
+  left: 0px;
+  top: 0px;
+}
+.knob {
+  background: #ffffff;
+  border-radius: 14px;
+  width: 28px;
+  height: 28px;
+  position: absolute;
+  left: 26px;
+  top: 2px;
+  box-shadow: var(
+    --elevation-1-box-shadow,
+    0px 1px 3px 0px rgba(0, 0, 0, 0.1),
+    0px 1px 2px 0px rgba(0, 0, 0, 0.1),
+    0px 2px 4px 0px rgba(0, 0, 0, 0.1)
+  );
+}
+.icons8 {
+  position: absolute;
+  left: 28px;
+  top: 4px;
+  overflow: visible;
+}
+.container {
+  background: #ffffff;
+  padding: 16px 0px 16px 0px;
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  flex: 1;
+  position: relative;
+  overflow: hidden;
+}
+.topo-pages {
+  padding: 16px 16px 16px 16px;
+  display: flex;
+  flex-direction: row;
+  gap: 16px;
+  align-items: center;
+  justify-content: flex-start;
+  align-self: stretch;
+  flex-shrink: 0;
+  position: relative;
+  overflow: hidden;
+}
+.search {
+  padding: 16px 16px 16px 0px;
+  display: flex;
+  flex-direction: row;
+  gap: 16px;
+  align-items: center;
+  justify-content: flex-start;
+  align-self: stretch;
+  flex: 1;
+  position: relative;
+  overflow: hidden;
+}
+.ter-a-feira-7-de-mar-o-de-2023 {
+  color: #0f263c;
+  text-align: left;
+  font: 400 24px "Inter", sans-serif;
+  position: relative;
+  width: 373px;
+  height: 41px;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+.search2 {
+  padding: 16px 16px 16px 16px;
+  display: flex;
+  flex-direction: row;
+  gap: 16px;
+  align-items: flex-start;
+  justify-content: flex-end;
+  align-self: stretch;
+  flex-shrink: 0;
+  width: 449px;
+  position: relative;
+  overflow: hidden;
+}
+.input {
+  background: var(--base-white, #ffffff);
+  border-radius: 8px;
+  border-style: solid;
+  border-color: var(--gray-300, #d0d5dd);
+  border-width: 1px;
+  padding: 10px 14px 10px 14px;
+  display: flex;
+  flex-direction: row;
+  gap: 8px;
+  align-items: center;
+  justify-content: flex-start;
+  align-self: stretch;
+  flex-shrink: 0;
+  width: 402px;
+  position: relative;
+  box-shadow: var(
+    --shadow-xs-box-shadow,
+    0px 1px 2px 0px rgba(16, 24, 40, 0.05)
+  );
+  overflow: hidden;
+}
+.content {
+  display: flex;
+  flex-direction: row;
+  gap: 8px;
+  align-items: center;
+  justify-content: flex-start;
+  flex: 1;
+  position: relative;
+}
+.search-lg {
+  flex-shrink: 0;
+  position: relative;
+  overflow: visible;
+}
+.text {
+  color: var(--gray-500, #667085);
+  text-align: left;
+  font: var(--textmd-normal, 400 16px/24px "Inter", sans-serif);
+  position: relative;
+}
