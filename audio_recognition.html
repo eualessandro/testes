@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <title>Reconhecimento de Áudio</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 2rem;
+    }
+    button {
+      margin-right: 1rem;
+      padding: 0.5rem 1rem;
+    }
+    #texto {
+      margin-top: 1rem;
+      padding: 1rem;
+      border: 1px solid #ccc;
+      width: 100%;
+      min-height: 100px;
+    }
+  </style>
+</head>
+<body>
+  <h1>Reconhecimento de Áudio</h1>
+  <button id="iniciar">Iniciar</button>
+  <button id="parar" disabled>Parar</button>
+  <div id="texto"></div>
+
+  <script>
+    const iniciarBtn = document.getElementById('iniciar');
+    const pararBtn = document.getElementById('parar');
+    const textoDiv = document.getElementById('texto');
+
+    const SpeechRecognition = window.SpeechRecognition || window.webkitSpeechRecognition;
+    if (!SpeechRecognition) {
+      textoDiv.textContent = 'Reconhecimento de fala não suportado neste navegador.';
+      iniciarBtn.disabled = true;
+    } else {
+      const recognizer = new SpeechRecognition();
+      recognizer.lang = 'pt-BR';
+      recognizer.interimResults = false;
+
+      recognizer.addEventListener('result', (event) => {
+        const content = Array.from(event.results)
+          .map(r => r[0].transcript)
+          .join(' ');
+        textoDiv.textContent += content + '\n';
+      });
+
+      recognizer.addEventListener('end', () => {
+        iniciarBtn.disabled = false;
+        pararBtn.disabled = true;
+      });
+
+      iniciarBtn.addEventListener('click', () => {
+        textoDiv.textContent = '';
+        recognizer.start();
+        iniciarBtn.disabled = true;
+        pararBtn.disabled = false;
+      });
+
+      pararBtn.addEventListener('click', () => {
+        recognizer.stop();
+      });
+    }
+  </script>
+</body>
+</html>
